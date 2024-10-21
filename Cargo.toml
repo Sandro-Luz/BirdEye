@@ -1,0 +1,14 @@
+[package]
+name = "BirdEye"
+version = "0.1.0"
+authors = [""]
+edition = "2021"
+about = "BirdEye does basic recon on a host, you can use a directory brute-force and see the open ports"
+
+[dependencies]
+clap = { version = "4.5.20", features = ["derive"] }
+colored = "2.1.0"
+pnet = "0.35.0"
+rand = "0.8.5"
+reqwest = "0.12.8"
+tokio = { version = "1.40.0", features = ["full"] }
